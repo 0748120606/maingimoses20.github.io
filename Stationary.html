@@ -1,0 +1,357 @@
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <title>Moon Gift Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="add_to_cart.php"></script>
+</head>
+<body id="index-page">
+<div class="row1">
+    <h class="royal1">Delivery is Countrywide  | <img src="Images/whatsapp.png" width="20px">  Order on whatsapp +254748120606</h>
+</div>
+<div class="top">
+<div class="navbar">
+    <div class="logo">
+        <img src="images/Shop logo.png" width="150px">
+    </div>
+        <nav>
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="Contact.html">Contact Us</a></li>
+               <li><a href="Shop.html">Shop</a></li>
+               <li><a href="Special offers.html">SPECIAL OFFERS</a></li>
+            </ul>
+        </nav>
+    <div class="logo">
+        <a href="Cart.html"><img src="images/cart.png" width="50px"></a>
+    </div>
+</div>
+</div>
+<div class="row">
+    <form class="form" action="/search" method="get">
+        <input type="text" id="search" name="" placeholder="Search Products and Categories">
+        <button type="submit">Search</button>
+    </form>
+</div>
+<div class="Container">
+<div class="row">
+    <div class="col-e">
+        <div class="col-a">
+            <img src="Images/st1.jpg" class="card-img-top" alt="Product Image">
+            <div class="card-body">
+               <h5 class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </h5>
+               <p class="card-text">Officepoint<br> Foldback<br>Clip</p>
+               <p class="previous-price">KSh 855</p>
+               <p class="current-price">KSh 712</p>
+               <button data-id="1" data-name="Officepoint Foldback Clip" data-price="712" class="btn btn-primary" onclick="addToCartFromExternalScript(this)">Add to Cart</button>
+               
+            </div>
+         </div>
+    </div>
+    <div class="col-e">
+        <div class="col-a" data-id="5">
+            <img src="Images/st2.jpg" class="card-img-top" alt="Product Image">
+            <div class="card-body">
+                <h5 class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                  </h5>
+               <p class="card-text">School Engineering<br>Scientific Calculator<br>Students Stationary</p>
+               <p class="previous-price">KSh 1450</p>
+               <p class="current-price">KSh 850</p>
+               <button data-id="5" data-name="School Engineering Scientific Calculator Students Stationary" data-price="850" class="btn btn-primary" onclick="addToCart(this)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-e">
+        <div class="col-a" data-id="6">
+            <img src="Images/st3.jpg" class="card-img-top" alt="Product Image">
+            <div class="card-body">
+                <h5 class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </h5>
+               <p class="card-text">Children, Kid Art<br>Stationary Set<br>In Wooden Case.</p>
+               <p class="previous-price">KSh 8450</p>
+               <p class="current-price">KSh 8300</p>
+               <a href="shopping cart.html" class="btn btn-primary" id="addToCartButton"
+               data-product-name="Building a Story Brand"
+               data-product-price="1600"
+               onclick="addToCartFromExternalScript()">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-e">
+        <div class="col-a">
+            <img src="Images/st4.jpg" class="card-img-top" alt="Product Image">
+            <div class="card-body">
+                <h5 class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </h5>
+               <p class="card-text">Mg Color Gel<br> Pen For Student Stationary<br> 0.5Mm.</p>
+               <p class="previous-price">KSh 3550</p>
+               <p class="current-price">KSh 2759</p>
+               <a href="Cart.html" class="btn btn-primary">Add to Cart</a>
+            </div>
+         </div>
+    </div>
+    <div class="col-e">
+        <div class="col-a">
+            <img src="Images/st5.jpg" class="card-img-top" alt="Product Image">
+            <div class="card-body">
+                <h5 class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </h5>
+               <p class="card-text">1 Set Multifunctional<br> Stationary Set <br>Pencil Ruler</p>
+               <p class="previous-price">KSh 1450</p>
+               <p class="current-price">KSh 1999</p>
+               <a href="Cart.html" class="btn btn-primary">Add to Cart</a>
+            </div>
+         </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-e">
+            <div class="col-a">
+                <img src="Images/st6.jpg" class="card-img-top" alt="Product Image">
+                <div class="card-body">
+                    <h5 class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </h5>
+                   <p class="card-text">The Light We Carry<br>By Mitchelle Obama.</p>
+                   <p class="previous-price">KSh 950</p>
+                   <p class="current-price">KSh 749</p>
+                   <a href="Cart.html" class="btn btn-primary">Add to Cart</a>
+                </div>
+             </div>
+        </div>
+        <div class="col-e">
+            <div class="col-a">
+                <img src="Images/st7.jpg" class="card-img-top" alt="Product Image">
+                <div class="card-body">
+                    <h5 class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </h5>
+                   <p class="card-text">Level 3 Kids<br>Colouring Book.</p>
+                   <p class="previous-price">KSh 450</p>
+                   <p class="current-price">KSh 300</p>
+                   <a href="Cart.html" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-e">
+            <div class="col-a">
+                <img src="Images/st9.jpg" class="card-img-top" alt="Product Image">
+                <div class="card-body">
+                    <h5 class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                      </h5>
+                   <p class="card-text">Pink Thank You Stationary<br> Stickers Supplies.</p>
+                   <p class="previous-price">KSh 4050</p>
+                   <p class="current-price">KSh 3700</p>
+                   <a href="Cart.html" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-e">
+            <div class="col-a">
+                <img src="Images/st10.jpg" class="card-img-top" alt="Product Image">
+                <div class="card-body">
+                    <h5 class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </h5>
+                   <p class="card-text">Stationary Holder Pen <br>Storage Organizer Office.</p>
+                   <p class="previous-price">KSh 10,050</p>
+                   <p class="current-price">KSh 8549</p>
+                   <a href="Cart.html" class="btn btn-primary">Add to Cart</a>
+                </div>
+             </div>
+        </div>
+        <div class="col-e">
+            <div class="col-a">
+                <img src="Images/st12.jpg" class="card-img-top" alt="Product Image">
+                <div class="card-body">
+                    <h5 class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </h5>
+                   <p class="card-text">Set Bear Cute Stickers<br>Moon Stationary</p>
+                   <p class="previous-price">KSh 2000</p>
+                   <p class="current-price">KSh 1459</p>
+                   <a href="Cart.html" class="btn btn-primary">Add to Cart</a>
+                </div>
+             </div>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-e">
+                <div class="col-a">
+                    <img src="Images/st13.jpg" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <h5 class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </h5>
+                       <p class="card-text">Dairy With Passcode Lock:<br>Confidential keeper.</p>
+                       <p class="previous-price">KSh 2450</p>
+                       <p class="current-price">KSh 2000</p>
+                       <a href="Cart.html" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                 </div>
+            </div>
+            <div class="col-e">
+                <div class="col-a">
+                    <img src="Images/st14.jpg" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <h5 class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </h5>
+                       <p class="card-text">Plan Dairy Note Book<br>Party Favor.. </p>
+                       <p class="previous-price">KSh 1450</p>
+                       <p class="current-price">KSh 1000</p>
+                       <a href="Cart.html" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-e">
+                <div class="col-a">
+                    <img src="Images/st16.jpg" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <h5 class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </h5>
+                       <p class="card-text">Super Cute Girl Heart<br>Cartoon Journal Book.</p>
+                       <p class="previous-price">KSh 6250</p>
+                       <p class="current-price">KSh 5000</p>
+                       <a href="Cart.html" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-e">
+                <div class="col-a">
+                    <img src="Images/st17.jpg" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <h5 class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </h5>
+                       <p class="card-text">Small Biz Life <br>Notepad Planner.</p>
+                       <p class="previous-price">KSh 1550</p>
+                       <p class="current-price">KSh 899</p>
+                       <a href="Cart.html" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                 </div>
+            </div>
+            <div class="col-e">
+                <div class="col-a">
+                    <img src="Images/st19.jpg" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <h5 class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </h5>
+                       <p class="card-text">Building a Story<br>Brand</p>
+                       <p class="previous-price">KSh 1850</p>
+                       <p class="current-price">KSh 1600</p>
+                       <a href="Cart.html" class="btn btn-primary" id="addToCartButton"
+                        data-product-name="Building a Story Brand"
+                        data-product-price="1600"
+                        onclick="addToCartFromExternalScript()">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script>
+       function addToCart(productName, price, imageUrl) {
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+    cart.push({ productName, price, imageUrl });
+    localStorage.setItem('cart', JSON.stringify(cart));
+}
+
+function addToCartFromExternalScript() {
+    const addToCartButton = document.getElementById('addToCartButton');
+    const productName = addToCartButton.getAttribute('data-product-name');
+    const price = addToCartButton.getAttribute('data-product-price');
+    const imageUrl = "Images/st19.jpg"; // Replace this with the actual image URL
+
+    addToCart(productName, price, imageUrl);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const addToCartButton = document.getElementById('addToCartButton');
+
+    addToCartButton.addEventListener('click', () => {
+        const productId = 123; // Replace this with the actual product ID
+
+        // Check if cart exists in local storage and create an empty cart if not
+        const cart = JSON.parse(localStorage.getItem('cart')) || {};
+
+        // Add or update product quantity
+        cart[productId] = (cart[productId] || 0) + 1;
+
+        // Save updated cart
+        localStorage.setItem('cart', JSON.stringify(cart));
+    });
+});
+</script>
+</body>
